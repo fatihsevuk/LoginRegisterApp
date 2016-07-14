@@ -12,7 +12,7 @@ public class DbConnection {
 		try {
 			
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			conn=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:testorcl","system","18081991Fth");
+			conn=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:testorcl","system","sifreniz");
 			
 			if(conn!=null){
 				System.out.println("veri tabaný baðlantýsý baþarýlý");
